@@ -183,7 +183,7 @@ class MainContainer extends React.Component {
               />
             </div>
 
-            <Heading>See how the complete process works.</Heading>
+            <Heading size='small'>See how the complete process works.</Heading>
           </div>
         </section>
 
