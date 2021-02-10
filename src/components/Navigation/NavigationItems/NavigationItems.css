@@ -1,0 +1,21 @@
+.navigation-items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  flex-flow: column;
+  font-size: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+@media (min-width: 1001px) {
+  .navigation-items {
+    flex-flow: row;
+    font-size: 1rem;
+  }
+}

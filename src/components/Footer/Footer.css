@@ -1,0 +1,86 @@
+.footer {
+  height: 300px;
+  position: relative;
+}
+
+.footer-bottom {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  bottom: 0px;
+  left: 0px;
+  margin-bottom: 10px;
+  font-size: 10px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20%;
+}
+
+.sign-up-div {
+  display: flex;
+  flex-direction: column;
+  /* width: 100%; */
+}
+
+.contact-div {
+  display: flex;
+  flex-direction: column;
+  float: right;
+  margin-top: 25px;
+}
+
+.social-links {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.social-links > img:hover {
+  cursor: pointer;
+}
+
+.submit-email-button {
+  background: rgb(41, 56, 92);
+  width: 80px;
+  height: 25px;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  transition: 0.5s ease;
+}
+
+.submit-email-button:hover {
+  color: black;
+  background: rgb(18, 226, 147);
+}
+
+.email-input {
+  height: 30px;
+  border: solid black;
+  border-width: 2px;
+  padding: 5px;
+  margin: 25px 0;
+}
+
+.email-input:hover {
+  border-color: red;
+}
+
+.phone-div {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.email-id-div {
+  display: flex;
+}
+
+@media (max-width: 1000px) {
+  .footer-content {
+    flex-direction: column;
+    margin: 0 10%;
+  }
+}

@@ -1,0 +1,30 @@
+.side-drawer.open {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.side-drawer.close {
+  transform: translateX(100%);
+  opacity: 0;
+}
+
+.side-drawer {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  background: rgb(41, 56, 92);
+  box-shadow: 2px 0px 5px black;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 70%;
+  z-index: 200;
+  opacity: 0;
+  transition: transform 0.3s ease 0s, opacity 0.2s ease-in-out 0.2s;
+}
+
+@media (min-width: 1001px) {
+  .side-drawer {
+    display: none;
+  }
+}

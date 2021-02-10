@@ -1,0 +1,27 @@
+.card {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  border: solid;
+  border-width: 1px;
+  border-color: rgb(186, 186, 186);
+  width: 260px;
+  height: 200px;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 2px 4px 5px rgb(111, 111, 111, 0.5);
+}
+
+/* .img-div {
+  height: 30px;
+  width: 30px;
+} */
+
+.label-div {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.data-div {
+  font-size: small;
+}

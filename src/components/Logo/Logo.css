@@ -1,0 +1,21 @@
+.logo {
+  padding: 8px;
+  height: 100%;
+  width: 200px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.logo img {
+  height: 100%;
+}
+
+@media (max-width: 1000px) {
+  .logo {
+    margin: 20px;
+  }
+}

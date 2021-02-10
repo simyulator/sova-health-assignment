@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.Content {
+  min-height: 100%;
+}
+
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100%;
+  overflow: hidden;
+}
+
+.solid-divider {
+  border-top: 3px solid rgb(191, 191, 191);
+  margin: 40px 20%;
+  /* margin-top: 40px; */
+}

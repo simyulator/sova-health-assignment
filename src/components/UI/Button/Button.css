@@ -1,0 +1,26 @@
+.button {
+  background-color: white;
+  border: none;
+  color: #29385c;
+
+  outline: none;
+  cursor: pointer;
+  font: inherit;
+  padding: 15px 25px 15px 25px;
+  /* margin: 10px; */
+  border-radius: 7px;
+  width: 100;
+  font-weight: bold;
+  float: left;
+}
+
+.button:hover {
+  color: grey;
+}
+
+@media screen and (max-width: 1000px) {
+  .button {
+    width: 100;
+    float: none;
+  }
+}
